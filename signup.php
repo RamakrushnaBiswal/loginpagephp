@@ -20,7 +20,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         // Handle database error
         echo "Error: " . $conn->error;
     }
-
     // Close the database connection
     $stmt->close();
     $conn->close();
